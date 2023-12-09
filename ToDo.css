@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa+One&family=Montserrat:wght@300&family=Poppins:wght@200;300;400&family=REM:wght@200&display=swap');
+
+
+*{
+    /* border: 1px red solid; */
+    background-color: rgb(51, 46, 46);
+    font-family: "poppins" , sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 5%;
+}
+h1{
+    color:rgb(141, 141, 245);
+}
+
+.user select {
+    padding: 10px;
+    font-size: 16px;
+    color:rgb(141, 141, 245);
+     border-radius: 5px;
+         box-shadow: 1px 3px 10px rgb(129, 129, 129);
+
+}
+
+.done{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 1px solid white;
+    text-align: right;
+}
+
+.input{
+    box-shadow: 1px 3px 10px rgb(129, 129, 129);
+    border: none;
+    border-radius: 5px;
+    width: 280px;
+    color: white;
+    padding: 10px;
+}
+
+.user{
+    display: flex;
+    flex-direction: row;
+}
+
+.btn{
+    border: none;
+    margin-left: 20px;
+    width: 50px;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    border: none;
+    border-radius: 50%;
+    background-color: grey;
+    margin-left: 20px;
+    width: 50px;
+    color: rgb(9, 9, 9);
+    font-size: 30px;
+}
+
+.Tasks{
+    margin-top: 14%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+
+.Tasks button{
+  margin-left: 70px;
+}
+.Tasks td{
+    padding-left: 105px;
+}
+
+table {
+    width: 100%;
+}
+
+th{
+   text-align: center;
+   color: rgb(196, 181, 243);
+   font-size: 16px;
+   padding-bottom: 10px;
+}
+
+td{
+  text-align: center;
+  color: rgb(157, 128, 243);
+  padding-bottom: 5px;
+}
+
+.drop{
+    padding-top: 6%;
+}

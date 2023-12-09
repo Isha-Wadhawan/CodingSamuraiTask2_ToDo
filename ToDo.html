@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>
+        </title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="ToDo.css">
+    </head>
+    <body>
+       <div class = "container">
+            <h1>My Task of the Day</h1>
+
+
+        <div class = "user">
+              <input type = "text" placeholder = "Add Your Task" class = "input" id = "input">
+             
+              <select id="prioritySelect">
+                <option value="Low">Low</option>
+                <option value="Medium">Medium</option>
+                <option value="High">High</option>
+            </select>
+
+              <button class= "btn">+</button>
+        </div>
+
+        <div class = "Tasks">
+            <table >
+                <th>Tasks</th>
+                <th>Action</th>
+               <!--
+            <tr>
+                    <td> <button class = "done" > </button> </td>
+                    <td id= "op"> </td>
+                    <td id = "remove">Delete</td>
+                </tr> -->
+              
+            </table>
+        </div>
+          </div>
+        <script src="ToDo.js" async defer></script>
+    </body>
+</html>
